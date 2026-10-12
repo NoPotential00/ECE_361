@@ -20,3 +20,15 @@ In Tuesday's lecture, the recursive maximum crashed at 200,000 values: every cal
 4. In `hw02/BONUS.md`: your four numbers in a table, with your computer and compiler, and an explanation in your own words. Why does one version survive at `-O2`? Why does it not at `-O0`? Why does `-O2` not save `stats_max`? What does this mean for a recursive function on a binary search tree?
 
 The bonus earns one revision token when HW2 is Satisfactory and you answer the extra Shine question about your bonus well. AI tools are allowed, as for the rest of the homework, but the numbers must come from your own machine, and you must be able to explain them.
+
+# How to Build and Test
+## Commands needed to make, clean and run
+```bash
+make # Make
+make clean # clean files
+make test # Test program
+```
+Note: Make sure to clean before testing in case the program was previously compiled on an incompatible operating system as to prevent errors from occuring
+
+# Module Diagram
+![alt text](20261011_235719.jpg)
